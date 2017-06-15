@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "RepoLink",
+  "version": "0.0.1",
+  "permissions": [
+    "tabs",
+    "https://github.com/*",
+    "https://gitlab.com/*", 
+    "https://bitbucket.org/*"
+  ],
+  "page_action": {
+      "default_icon": "git.svg",
+      "default_title": "Navigate to GitHub repository"
+  },
+  "background": {
+    "scripts": [ "background.js" ]
+  }
+}
