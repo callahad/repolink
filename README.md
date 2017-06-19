@@ -1,6 +1,15 @@
 ## RepoLink
 
-Add a shortcut to navigate from GitHub Pages (or similar) to the corresponding repository in just one click.
+Hosts like GitHub Pages use URLs that follow a regular pattern:
+
+```
+GitHub Pages: https://foo.github.io/bar
+                      ^^^        ^^ ^^^
+GitHub Repos: https://github.com/foo/bar
+                             ^^^ ^^^ ^^^
+```
+
+This add-on provides a one-click link from Pages to repositories. No more manual URL hacking.
 
 Supported services:
 
@@ -8,5 +17,3 @@ Supported services:
 - GitLab Pages ([Test Page](https://pages.gitlab.io/hugo/))
 - BitBucket Cloud ([Test Page](https://s2sauth.bitbucket.io/), [Test Page](https://eastzone.bitbucket.io/))
 - SourceForge ([Test Page](http://maxima.sourceforge.net/))
-
-This add-on intelligently detects and handles pages for users / organizations, as well as pages for projects.
